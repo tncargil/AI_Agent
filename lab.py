@@ -109,7 +109,7 @@ You must ALWAYS respond in this format:
 
 # Initialize agent parameters
 iterations = 0
-max_iterations = 10
+max_iterations = 5
 
 user_task = input("What would you like me to do? ")
 
@@ -155,3 +155,5 @@ while iterations < max_iterations:
 
     iterations += 1
 endTime = time.perf_counter()
+
+print(f"response time: {endTime - startTime}")
