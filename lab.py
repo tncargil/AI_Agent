@@ -8,6 +8,7 @@ import time
 from litellm import completion
 from typing import List, Dict
 
+
 def generate_response(messages: List[Dict]) -> str:
     """Call local DeepSeek LLM via LiteLLM"""
     response = completion(
